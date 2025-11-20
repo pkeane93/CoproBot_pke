@@ -9,7 +9,7 @@ class ChatsController < ApplicationController
 
       # check if any messages in the chat, if yes, creates a new chat.
       if @chat.messages.any?
-        @chat = Chat.new(title: @section.name, section_id: @section.id, user_id: current_user.id)
+        @chat = Chat.new(title: Chat::DEFAULT_TITLE, section_id: @section.id, user_id: current_user.id)
         @chat.save
       end
       redirect_to chat_path(@chat)
