@@ -16,6 +16,13 @@
   </head>
 
   <body>
+    <nav>
+      <% if user_signed_in? %>
+        <%= render "shared/navbar_logged" %>
+      <% else %>
+        <%= render "shared/navbar_public" %>
+      <% end %> 
+    </nav>
     <main>
       <%= yield %>
     </main>
