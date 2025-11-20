@@ -101,7 +101,8 @@ Section.create(:content => "
   :system_prompt => "
     Guide me into the RGPD regulations concerning data usage for co-ownerships.
   ",
-  :name => "GDPR"
+  :name => "GDPR",
+  :url => "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.tecnous.com%2Fwp-content%2Fuploads%2F2019%2F08%2FGDPR.jpg&f=1&nofb=1&ipt=b659e7ad8d62833a74c8c9b2995206fe1a88b8f7101b802219dade89f09cd3df"
 )
 
 Section.create(:content => "
@@ -111,7 +112,8 @@ Section.create(:content => "
   :system_prompt => "
     Guide me into the financial side concerning accountancy for co-ownerships.
   ",
-  :name => "Accounting & Financial Management"
+  :name => "Accounting & Financial Management",
+  :url => "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.bizvibe.com%2Fwp-content%2Fuploads%2F2020%2F03%2Ftop-10-accounting-firms.jpg&f=1&nofb=1&ipt=500315cf308cd510599fdc382bbd1744e58241e7f96f1f07622f837fc8d40e32"
 )
 
 Section.create(:content => "
@@ -121,7 +123,8 @@ Section.create(:content => "
   :system_prompt => "
     Guide me into the financial side concerning accountancy for co-ownerships.
   ",
-  :name => "Co-Ownership (Legal & Governance)"
+  :name => "Co-Ownership (Legal & Governance)",
+  :url => "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frealestatelicensewizard.com%2Fwp-content%2Fuploads%2F2023%2F06%2Fco-ownership.jpg&f=1&nofb=1&ipt=2461498d5f209136681c357cbdefa4cb7df4167c10dfa0ddd0e234ab2909d39b"
 )
 
 Section.create(:content => "
@@ -131,7 +134,8 @@ Section.create(:content => "
   :system_prompt => "
     Guide me into the financial side concerning accountancy for co-ownerships.
   ",
-  :name => "Building Maintenance & Safety"
+  :name => "Building Maintenance & Safety",
+  :url => "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.buysafetyposters.com%2Fuploads%2FProductZoom%2Fprod0-English-86.jpg&f=1&nofb=1&ipt=0025bae180fb1d7a45a02e9355161355aa5f2554aa491c8a2f3f1d5fcc33e6d4"
 )
 
 puts Section.count
